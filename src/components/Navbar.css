@@ -1,0 +1,89 @@
+.navbar{
+    position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%;
+  background-color: #812d5b; 
+  color: white;
+  padding: 10px 20px; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  z-index: 1000; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    
+
+}
+
+.navbar-links
+{
+
+    font-size: 18px;
+    color:white;
+    list-style: none;
+    gap: 20px;
+    display: flex;
+}
+.navbar-logo
+{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#f7fa36;
+   
+}
+
+.navbar button {
+    font-size: 16px;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height: 35px; 
+    margin-right: 10px;
+}
+
+
+.login-button {
+    background-color: #b7eef5; 
+    color: #057d8d;
+    border: 1px solid cxc; 
+}
+
+.login-button:hover {
+    background-color:  #ffffff; 
+    border-color: #057d8d;
+    color: #057d8d;
+}
+
+/* Signup Button Styling */
+.signup-button {
+    background-color: white;
+    color:#057d8d;
+    border: 1px solid white; 
+}
+
+.signup-button:hover {
+    background-color:#b7eef5;
+    border-color: #e8f7a7;
+    color:#057d8d;
+}
+
+.navbar-links li.active {
+    text-decoration: underline;
+    font-weight: bold;  
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;  
+    text-decoration-color: white;
+    
+}
+.navbar-links li {
+    padding: 10px;
+    cursor: pointer;
+    transition: text-decoration 0.3s ease;
+    padding-bottom: 2px;
+    color:white;
+   
+    
+}
