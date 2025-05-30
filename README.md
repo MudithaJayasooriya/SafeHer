@@ -1,12 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The SafeHer website was created to empower and support women by providing a safe, informative, and interactive digital space focused on personal safety, mental well-being, and community support. The inspiration behind choosing this topic stems from the urgent need to raise awareness about women's safety and to offer accessible tools that can help individuals feel more secure and supported in their daily lives. To build this platform, modern web development technologies such as HTML, CSS, JavaScript, and React.js were used for the front end, ensuring a responsive and user-friendly experience. For the backend, technologies like Node.js, Express.js, and MongoDB can be integrated to manage user data and dynamic content securely. Key features of the SafeHer website include an interactive homepage where clicking on safety-related features changes the background photo, creating an engaging user experience; a 'Stories and Support' page where users can read real-life stories, submit their own (anonymously if they wish), and explore a digital wall of encouragement; a 'Help' page offering a report form, self-defense resources, mental health support links, a contact form, and a call to action to join the movement. These functions together make SafeHer a meaningful platform that combines awareness, action, and emotional support.
